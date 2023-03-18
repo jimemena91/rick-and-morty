@@ -1,0 +1,23 @@
+.container{
+    background-color: #f8b400;
+    width: fit-content;
+    padding: 1em;
+    border-radius: 10px ;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75) ;
+    text-shadow: 1px -2px 2px rgba(0,0,0,0.6);
+    display: flex;
+    flex-direction: column;
+}
+
+.closeButton{
+    border: 0px ;
+    background-color:red ;
+    width: fit-content;
+    height: fit-content ;
+    border-radius: 15px ;
+}
+
+.closeButton:hover{
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    
+}
